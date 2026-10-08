@@ -12,7 +12,7 @@ from backend.engine import run_simulation
 app = FastAPI(title="RetireRight AI")
 app.mount("/static", StaticFiles(directory="static"), name="static")
 
-GEMINI_API_KEY = "YOUR_API_KEY_HERE"
+GEMINI_API_KEY = "AQ.Ab8RN6LDimElRaS7KW4Waeicm7z_skxgI7d8nnZu_Zej9329IQ"
 client = None
 try:
     if GEMINI_API_KEY:
